@@ -1,0 +1,6 @@
+<!-- assets/contact.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none">
+  <rect x="1.5" y="4.5" width="21" height="15" rx="2.5" stroke="#5ef" stroke-width="1.6" fill="rgba(94,234,255,0.04)"></rect>
+  <path d="M3 6.5l9 6 9-6" stroke="#5ef" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+  <circle cx="19" cy="7" r="1.1" fill="#5ef"></circle>
+</svg>
