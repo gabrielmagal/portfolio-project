@@ -22,16 +22,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const subtitle = document.querySelector(".subtitle");
-  
-  if (subtitle) {
-    const textoCompleto = `Desenvolvedor Back-End Java | ${idade} anos`;
-    subtitle.textContent = "";
 
+  if (subtitle) {
+    const text = `Desenvolvedor Back-End Java | ${idade} anos`;
+    subtitle.textContent = "";
     let i = 0;
 
     function typeEffect() {
-      if (i < textoCompleto.length) {
-        subtitle.textContent += textoCompleto.charAt(i);
+      if (i < text.length) {
+        subtitle.textContent += text.charAt(i);
         i++;
         setTimeout(typeEffect, 60);
       }
